@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.layout-container {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  padding: 1rem 0;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.menu-nav {
+  background-color: cadetblue;
+  display: flex;
+}
+@media screen and (max-width: 460px) {
+  .menu-nav {
+    flex-direction: column;
+  }
+}
+
+.nav-item {
+  padding: 0.7em;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.nav-item:hover {
+  background-color: #395f60;
+}
+/*# sourceMappingURL=index.45223856.css.map */

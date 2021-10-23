@@ -1,0 +1,45 @@
+@import "_vars.scss";
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.layout-container{
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    padding: 1rem 0;
+    font:{
+        weight: bold;
+        size: 120%;
+    }
+}
+
+.menu-nav{   
+    background-color: $base-color;
+    display: flex; 
+    @media screen and (max-width: $breakpoint-sm){
+        flex-direction: column;
+    }
+}
+
+.nav-item{
+    padding: 0.7em;
+    cursor: pointer;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    flex: 1;
+    &:hover{
+        background-color: $item-color-onhover;
+    }
+}

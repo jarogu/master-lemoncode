@@ -1,0 +1,62 @@
+.container-1 {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  border-radius: 4px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base-color {
+  background-color: #33C7FF;
+  color: white;
+  width: 150px;
+}
+
+.darken-1 {
+  background-color: #0fbdff;
+  color: #ff6b33;
+}
+
+.lighten-1 {
+  background-color: #57d1ff;
+  color: #ff6b33;
+}
+
+.darken-2 {
+  background-color: #00aaeb;
+  color: #ff6b33;
+}
+
+.lighten-2 {
+  background-color: #7adbff;
+  color: #ff6b33;
+}
+
+.darken-3 {
+  background-color: #0090c7;
+  color: #ff6b33;
+}
+
+.lighten-3 {
+  background-color: #9ee4ff;
+  color: #ff6b33;
+}
+
+.darken-4 {
+  background-color: #0076a3;
+  color: #ff6b33;
+}
+
+.lighten-4 {
+  background-color: #c2eeff;
+  color: #ff6b33;
+}
+/*# sourceMappingURL=index.45223856.css.map */
