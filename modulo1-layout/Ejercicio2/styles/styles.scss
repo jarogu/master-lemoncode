@@ -1,0 +1,36 @@
+@import "themeA.scss";
+
+.box{
+    height: 100px;
+    width: 120px;
+    border: 1px black solid;
+    border-radius: $border-radius;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-base{
+    background-color: $base-color;
+}
+
+.box-important{
+    background-color: $important-color;
+}
+
+.box-warning{
+    background-color: $warning-color;
+}
+
+.shadow-box{
+    box-shadow: $shadow-box;
+}
+
+.main-font{
+    font-family: $main-font;
+}
+
+.secondary-font{  
+    font-family: $secondary-font;
+}

@@ -1,0 +1,1 @@
+{"mappings":"","sources":["styles/themeA.scss"],"sourcesContent":["$base-color: red;\n$important-color: darken($base-color, 20%);\n$warning-color: lighten($base-color, 20%);\n$main-font: \"Arial\";\n$secondary-font: sans-serif;\n"],"names":[],"version":3,"file":"index.8b45be3e.css.map","sourceRoot":"/__parcel_source_root/"}

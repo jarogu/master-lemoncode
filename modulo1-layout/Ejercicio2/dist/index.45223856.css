@@ -1,0 +1,34 @@
+.box {
+  height: 100px;
+  width: 120px;
+  border: 1px black solid;
+  border-radius: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-base {
+  background-color: red;
+}
+
+.box-important {
+  background-color: #990000;
+}
+
+.box-warning {
+  background-color: #ff6666;
+}
+
+.shadow-box {
+  box-shadow: -5px 10px 10px black;
+}
+
+.main-font {
+  font-family: Arial;
+}
+
+.secondary-font {
+  font-family: "Courier New";
+}
+/*# sourceMappingURL=index.45223856.css.map */
